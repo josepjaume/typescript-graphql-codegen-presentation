@@ -12,17 +12,17 @@ class:
 
 ---
 
-**@josepjaume**
+# :adult:
 
-desenvolupador de pila completa
-
----
-
-Codegram
-
----
-
-~~Codegram~~ -> Factorial
+```json
+{
+  "nom": "Josep Jaume",
+  "tipus": "desenvolupador de pila completa",
+  "motCurt": "@josepjaume",
+  "treballoA": ["C̶o̶d̶e̶g̶r̶a̶m̶", "Factorial"],
+  "liosVaris": ["Espetech Cast", "Full Stack Vallès"]
+}
+```
 
 ---
 
@@ -61,6 +61,7 @@ Codegram
 ---
 
 - Un llenguatge de consulta
+- És una especificació
 - Fortament Tipat
 - Creat per ~~Facebook~~ Meta el 2015
 
@@ -71,7 +72,7 @@ Esquema del servidor
 ```graphql
 type Human {
   name: String!
-  friends: [Human]
+  colleagues: [Human]
 }
 
 type Meetup {
@@ -89,12 +90,12 @@ type Query {
 POST /graphql
 
 ```grapqhl
-query {
+query GetMeetups {
   meetups(last: 2) {
     date
     attendees {
       name
-      friends {
+      colleagues {
         name
       }
     }
@@ -128,7 +129,7 @@ query {
 
 ---
 
-![bg](mini-golf.webp)
+![bg](golf-dog.gif)
 
 ---
 
@@ -150,7 +151,7 @@ query {
 type Human {
   name: String!
   bio: String
-  friends: [Human!]!
+  colleagues: [Human!]!
 }
 
 type Meetup {
@@ -169,7 +170,7 @@ type Query {
 export type Human = {
   __typename?: "Human";
   name: Scalars["String"];
-  friends?: Maybe<Array<Maybe<Human>>>;
+  colleagues?: Maybe<Array<Maybe<Human>>>;
 };
 
 export type Meetup = {
@@ -190,6 +191,36 @@ export type Query = {
 
 ---
 
-# ⌨️ Codi en directe
+![bg contain](lazy.gif)
 
-Ai mareta
+---
+
+# :keyboard: Codi en directe :keyboard:
+
+---
+
+# Què hi hem guanyat? :thinking:
+
+---
+
+- Garantia de no trencar el contracte amb la API
+- Demanem les dades exactes, ni més ni menys
+- Tenim dades d'ús per cada camp
+- Desacoblem negoci d'implementació
+- ...
+- Podem donar la turra amb tot això
+
+---
+
+![bg contain](yes.gif)
+
+---
+
+# Gràcies :heart:
+
+josepjaume@gmail.com
+twitter.com/josepjaume
+
+Estem contractant 👀
+
+https://factorialhr.com/
