@@ -221,6 +221,6 @@ export type Query = {
 josepjaume@gmail.com
 twitter.com/josepjaume
 
-Estem contractant 👀
+Estem contractant! 👀
 
 https://factorialhr.com/
