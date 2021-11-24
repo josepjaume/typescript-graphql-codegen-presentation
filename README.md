@@ -26,6 +26,26 @@ class:
 
 ---
 
+# :book: Glossari
+
+---
+
+![bg](capybara.jpg)
+
+---
+
+![bg](penguin.gif)
+
+---
+
+![bg](amics-per-sempre.jpg)
+
+---
+
+![bg](amics-per-sempre-no.webp)
+
+---
+
 ![TypeScript](ts.svg)
 
 ---
@@ -218,8 +238,12 @@ export type Query = {
 
 # Gràcies :heart:
 
-josepjaume@gmail.com
-twitter.com/josepjaume
+```json
+{
+  "email": "josepjaume@gmail.com",
+  "shitPosting": "twitter.com/josepjaume"
+}
+```
 
 Estem contractant! 👀
 
