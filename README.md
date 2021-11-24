@@ -56,25 +56,39 @@ class:
 
 - Superset de JavaScript
 - Estàticament tipat
+- Força llest
 - Creat per Micro$oft el 2012
 
 ---
 
+<!-- backgroundColor: #1e1e1e -->
+
+![w:800](tsdemo.png)
+
+---
+
+<!-- backgroundColor: default -->
 <!-- class: default -->
 
 ![Rage](./computer-typing.gif)
 
 ---
 
+<!-- backgroundColor: #1b1b1b -->
 <!-- class: invert -->
 
 ![bg contain](date-madness.gif)
 
 ---
 
+<!-- backgroundColor: default -->
+<!-- class: default -->
+
 ![](graphql.png)
 
 ---
+
+<!-- class: invert -->
 
 # :hand:
 
@@ -167,6 +181,8 @@ query GetMeetups {
 
 ---
 
+Esquema de GraphQL
+
 ```graphql
 type Human {
   name: String!
@@ -185,6 +201,8 @@ type Query {
 ```
 
 ---
+
+Codi generat
 
 ```typescript
 export type Human = {
@@ -219,6 +237,12 @@ export type Query = {
 
 ---
 
+https://rickandmortyapi.com/graphql
+
+https://github.com/josepjaume/typescript-graphql-codegen-demo
+
+---
+
 # Què hi hem guanyat? :thinking:
 
 ---
@@ -226,8 +250,7 @@ export type Query = {
 - Garantia de no trencar el contracte amb la API
 - Demanem les dades exactes, ni més ni menys
 - Tenim dades d'ús per cada camp
-- Desacoblem negoci d'implementació
-- ...
+- Desacoplem consumidor de productor
 - Podem donar la turra amb tot això
 
 ---
